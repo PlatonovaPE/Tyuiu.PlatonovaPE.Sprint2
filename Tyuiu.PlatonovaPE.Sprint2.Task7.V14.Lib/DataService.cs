@@ -16,7 +16,7 @@ namespace Tyuiu.PlatonovaPE.Sprint2.Task7.V14.Lib
             {
                 res = false;
             }
-            if ((y == x) && (y == -x))
+            if (((y == x) && (y == -x)) && ((x > 0) && (x < 1) && (y > 0) && (y < 1))) 
             {
                 res = true;
             }
