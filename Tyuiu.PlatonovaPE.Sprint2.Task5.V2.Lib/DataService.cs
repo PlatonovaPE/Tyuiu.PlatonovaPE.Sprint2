@@ -27,7 +27,7 @@ namespace Tyuiu.PlatonovaPE.Sprint2.Task5.V2.Lib
                 case 9:
                 case 10:
                 case 11:
-                    res = "Осень";
+                    res = "oсень";
                     break;
                 default:
                     throw new ArgumentException($"месяц должен быть от 1 до 12. Значение {value}");
