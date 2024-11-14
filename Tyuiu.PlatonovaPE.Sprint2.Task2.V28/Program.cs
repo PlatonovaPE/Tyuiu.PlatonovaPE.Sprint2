@@ -7,9 +7,21 @@ namespace Tyuiu.PlatonovaPE.Sprint2.Task2.V28
         {
 
 
-            Console.WriteLine("********************************************************************************");
-            Console.WriteLine("* Исходные данные                                                              *");
-            Console.WriteLine("********************************************************************************");
+            DataService ds = new DataService();
+            Console.Title = "Спринт #2 | Выполнила: Платонова Полина Евгеньвна  | ИСПб-24-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #2                                                               *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #28                                                             *");
+            Console.WriteLine("* Выполнила:  Платонова Полина Евгеньвна  | ИСПб-24-1                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("*Написать программу вычисляет находится ли точка с координатами X,Y в заштрихованной области *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
 
             Console.WriteLine("Введите значение Х:");
             int x = Convert.ToInt32(Console.ReadLine());
@@ -17,8 +29,6 @@ namespace Tyuiu.PlatonovaPE.Sprint2.Task2.V28
             Console.WriteLine("Введите значение Y:");
             int y = Convert.ToInt32(Console.ReadLine());
 
-
-            DataService ds = new DataService();
             bool res = ds.CheckDotInShadedArea(x, y);
 
 
