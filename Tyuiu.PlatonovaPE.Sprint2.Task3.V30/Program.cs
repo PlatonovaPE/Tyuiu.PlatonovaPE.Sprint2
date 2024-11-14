@@ -5,8 +5,6 @@ namespace Tyuiu.PlatonovaPE.Sprint2.Task2.V28
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
-
 
             DataService ds = new DataService();
             Console.Title = "Спринт #2 | Выполнила: Платонова Полина Евгеньвна  | ИСПб-24-1";
